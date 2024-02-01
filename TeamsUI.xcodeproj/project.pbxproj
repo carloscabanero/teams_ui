@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		BD0B07AF2B647DA800D77B7E /* TeamsUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B07AE2B647DA800D77B7E /* TeamsUIApp.swift */; };
-		BD0B07B12B647DA800D77B7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B07B02B647DA800D77B7E /* ContentView.swift */; };
+		BD0B07B12B647DA800D77B7E /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B07B02B647DA800D77B7E /* UserProfileView.swift */; };
 		BD0B07B32B647DA900D77B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0B07B22B647DA900D77B7E /* Assets.xcassets */; };
 		BD0B07B72B647DA900D77B7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0B07B62B647DA900D77B7E /* Preview Assets.xcassets */; };
 		BD0B07C12B647DA900D77B7E /* TeamsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B07C02B647DA900D77B7E /* TeamsUITests.swift */; };
 		BD0B07CB2B647DA900D77B7E /* TeamsUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B07CA2B647DA900D77B7E /* TeamsUIUITests.swift */; };
 		BD0B07CD2B647DA900D77B7E /* TeamsUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B07CC2B647DA900D77B7E /* TeamsUIUITestsLaunchTests.swift */; };
+		BD0B07DA2B6586AD00D77B7E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B07D92B6586AD00D77B7E /* Models.swift */; };
+		BD0B07E12B659B9E00D77B7E /* OrgProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B07E02B659B9E00D77B7E /* OrgProfileView.swift */; };
+		BD0B07E32B659BC500D77B7E /* OrgMemberProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B07E22B659BC500D77B7E /* OrgMemberProfileView.swift */; };
+		BD0B07E52B659BD900D77B7E /* OrgMembersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B07E42B659BD900D77B7E /* OrgMembersListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		BD0B07AB2B647DA800D77B7E /* TeamsUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamsUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0B07AE2B647DA800D77B7E /* TeamsUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsUIApp.swift; sourceTree = "<group>"; };
-		BD0B07B02B647DA800D77B7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD0B07B02B647DA800D77B7E /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		BD0B07B22B647DA900D77B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD0B07B42B647DA900D77B7E /* TeamsUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TeamsUI.entitlements; sourceTree = "<group>"; };
 		BD0B07B62B647DA900D77B7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +49,10 @@
 		BD0B07C62B647DA900D77B7E /* TeamsUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamsUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0B07CA2B647DA900D77B7E /* TeamsUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsUIUITests.swift; sourceTree = "<group>"; };
 		BD0B07CC2B647DA900D77B7E /* TeamsUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD0B07D92B6586AD00D77B7E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		BD0B07E02B659B9E00D77B7E /* OrgProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrgProfileView.swift; sourceTree = "<group>"; };
+		BD0B07E22B659BC500D77B7E /* OrgMemberProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrgMemberProfileView.swift; sourceTree = "<group>"; };
+		BD0B07E42B659BD900D77B7E /* OrgMembersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrgMembersListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				BD0B07AE2B647DA800D77B7E /* TeamsUIApp.swift */,
-				BD0B07B02B647DA800D77B7E /* ContentView.swift */,
+				BD0B07B02B647DA800D77B7E /* UserProfileView.swift */,
+				BD0B07E02B659B9E00D77B7E /* OrgProfileView.swift */,
+				BD0B07E42B659BD900D77B7E /* OrgMembersListView.swift */,
+				BD0B07E22B659BC500D77B7E /* OrgMemberProfileView.swift */,
 				BD0B07B22B647DA900D77B7E /* Assets.xcassets */,
 				BD0B07B42B647DA900D77B7E /* TeamsUI.entitlements */,
 				BD0B07B52B647DA900D77B7E /* Preview Content */,
+				BD0B07D92B6586AD00D77B7E /* Models.swift */,
 			);
 			path = TeamsUI;
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD0B07B12B647DA800D77B7E /* ContentView.swift in Sources */,
+				BD0B07DA2B6586AD00D77B7E /* Models.swift in Sources */,
+				BD0B07B12B647DA800D77B7E /* UserProfileView.swift in Sources */,
 				BD0B07AF2B647DA800D77B7E /* TeamsUIApp.swift in Sources */,
+				BD0B07E12B659B9E00D77B7E /* OrgProfileView.swift in Sources */,
+				BD0B07E32B659BC500D77B7E /* OrgMemberProfileView.swift in Sources */,
+				BD0B07E52B659BD900D77B7E /* OrgMembersListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +450,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -442,7 +458,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cc.carloscabanero.TeamsUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -472,7 +489,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -480,7 +497,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cc.carloscabanero.TeamsUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

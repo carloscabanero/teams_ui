@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct UserProfileView: View {
+    @State var profile: UserProfileModel
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +22,9 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    UserProfileView(profile: DataPreview.eva)
 }
+
+//protocol UserProfileInteractions {
+//    
+//}

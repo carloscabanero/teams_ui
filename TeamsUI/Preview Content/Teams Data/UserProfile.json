@@ -1,0 +1,15 @@
+{
+    "id": "e1234567-89ab-cdef-0123-456789abcdef",
+    "first_name": "Eva",
+    "last_name": "Chen",
+    "name": "Eva Chen",
+    "email": "eva.chen@acme.com",
+    "created": "2023-06-15T13:20:00Z",
+    "updated": "2023-12-10T16:05:00Z",
+    "org": {
+        "name": "Acme, Inc.",
+        "org_id": "acme123",
+        "state": "active",
+        "role": "admin"
+    }
+}
